@@ -1,4 +1,4 @@
-# 🚀 Lock-Free Parallel Monte Carlo Tree Search Engine
+# Lock-Free Parallel Monte Carlo Tree Search Engine
 
 A high-performance Monte Carlo Tree Search (MCTS) engine written in C++ with lock-free tree parallelization, atomic synchronization, custom memory allocators, and a full-stack interactive Tic-Tac-Toe application powered by React, Node.js, and Socket.IO.
 
@@ -184,22 +184,24 @@ without relying on global locks.
 # Project Structure
 
 ```text
-.
-├── include/
-│   └── mcts.h
-│
-├── src/
-│   ├── mcts.cpp
-│   └── main.cpp
-│
-├── frontend/
-│   ├── App.jsx
-│   └── App.css
-│
-├── server/
-│   └── srv.js
-│
-└── README.md
+Monte-Carlo-Tree-Search-Engine/
+├── frontend/               
+│   ├── public/
+│   ├── src/                
+│   ├── index.html
+│   ├── package.json
+│   ├── package-lock.json
+│   └── vite.config.js
+├── .dockerignore           
+├── CMakeLists.txt          
+├── Dockerfile              
+├── README.md               
+├── main.cpp                
+├── mcts.cpp                
+├── mcts.h                  
+├── package-lock.json       
+├── package.json            
+└── srv.js
 ```
 
 ---
