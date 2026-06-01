@@ -1,0 +1,88 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.ct {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff; 
+}
+
+.st {
+  height: 24px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.bd {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.cl {
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.c_b {
+  color: #000; 
+}
+
+.c_w {
+  color: #008000; 
+}
+
+.rb {
+  width: 100%;
+  max-width: 300px;
+  background-color: #d9534f;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.rb:hover {
+  background-color: #c9302c;
+}
